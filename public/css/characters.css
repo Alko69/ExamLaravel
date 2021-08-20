@@ -1,0 +1,24 @@
+td>a:hover{
+    background-color: #ba55c3;
+}
+
+td, th{
+    border: solid black 1px;
+    text-align: center;
+    padding: 10px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+th{
+    background-color: #452f8d;
+}
+
+td{
+    background-color: #97439e;
+}

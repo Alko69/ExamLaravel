@@ -1,0 +1,43 @@
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+form{
+    display: table;
+    width: 10%;
+    text-align: center;
+    align-self: center;
+    padding: 20px;
+}
+
+label{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.write{
+    box-sizing: content-box;
+}
+
+#sub{
+    margin-top: 20px;
+    width: 160px;
+    align-self: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #2d2161;
+    color: white;
+}
+
+#sub:hover{
+    background-color:  #463399 ;
+}
+
+
+
+.gradient{
+    background: linear-gradient(to bottom right, #2d1b66,  #97439e);
+}

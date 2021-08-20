@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin-left: 30px;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nava:hover {
+    background-color: #807e7e;
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+nav{
+    background-color: #a0a0a0;
+    display: flex;
+    height: 70px;
+}
+
+#navul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
+h1{
+    margin: 20px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: white;
+    font-size: 80px;
+}
+
+
+body{
+    background-image: url(../imges/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
